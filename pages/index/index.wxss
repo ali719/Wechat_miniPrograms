@@ -1,0 +1,39 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+  background: #8ed145
+}
+.indexMain{
+display: flex;
+flex-direction: column;
+align-items: center
+}
+.indexImg{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin: 100rpx;
+}
+.userName{
+  font-size: 40rpx;
+  margin: 100rpx;
+}
+.goto{
+  width: 280rpx;
+  height: 80rpx;
+  border: 1rpx solid #eee;
+  border-radius: 20rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 24rpx;
+
+}
+.btn{
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 25rpx;
+  line-height: 200rpx;
+  border-radius: 100rpx;
+  margin-top: 100px;
+  background: pink;
+}
